@@ -13,11 +13,6 @@ public class LambdaAllureReportTest {
     private static final String REPOSITORY = "AdelKurysheva/qa.guru_hw4";
     private static final int numberISSUE = 2;
 
-    @BeforeAll
-    static void beforeAll() {
-        Configuration.holdBrowserOpen = true;
-    }
-
     @BeforeEach
     void beforeEach() {
         Configuration.browser = "edge";
