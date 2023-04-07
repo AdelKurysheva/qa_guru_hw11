@@ -19,7 +19,7 @@ public class ListenerAllureReportTest {
     }
 
     @Test
-    public void testListenerAllur() {
+    public void testListenerAllure() {
         SelenideLogger.addListener("allure", new AllureSelenide());
         open("https://github.com/");
         $(".js-site-search-focus").setValue(REPOSITORY).pressEnter();

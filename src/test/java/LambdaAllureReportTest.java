@@ -19,7 +19,7 @@ public class LambdaAllureReportTest {
     }
 
     @Test
-    public void testListenerAllur() {
+    public void testLambdaAllure() {
         step("Открываем главную страницу", () -> {
             open("https://github.com/");
         });

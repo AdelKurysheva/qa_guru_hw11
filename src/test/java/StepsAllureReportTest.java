@@ -13,7 +13,7 @@ public class StepsAllureReportTest {
     }
 
     @Test
-    public void testListenerAllur() {
+    public void testStepsAllure() {
         SelenideLogger.addListener("allure", new AllureSelenide());
         WebSteps steps = new WebSteps();
         steps.openMainPage();
