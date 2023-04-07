@@ -28,7 +28,7 @@ public class WebSteps {
         $("#issues-tab").click();
     }
 
-    @Step("Проверяем наличие Issue #2")
+    @Step("Проверяем наличие Issue #" + numberISSUE)
     public void shouldSeeIssueWithNumber() {
         $(withText("#" + numberISSUE)).should(Condition.visible);
     }
